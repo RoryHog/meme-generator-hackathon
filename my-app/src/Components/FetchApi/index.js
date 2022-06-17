@@ -52,12 +52,12 @@ import Button from "../Button";
         <>
         <Button onClick={getMemeImage}/>
         <button className="button" onClick={handleClick}>add text</button>
-        <input onInput={getFirstInput} className="top-line" placeholder="Top Line"></input>
-        <input onInput={getSecondInput} className="bottom-line" placeholder="Bottom Line"></input>
+        <input onChange={getFirstInput} className="top-line" placeholder="Top Line"></input>
+        <input onChange={getSecondInput} className="bottom-line" placeholder="Bottom Line"></input>
         <img className="image" src={meme.randomImage} alt={meme.name}/>
         <p className="top-text">{text}</p>
         <p className="bottom-text">{text2}</p>
-        <button className="button" onClick={handleClick}>add to collection</button>
+        <button className="button">add to collection</button>
         </>
     )
  }
