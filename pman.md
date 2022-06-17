@@ -6,3 +6,6 @@
 
 - Stretch goal 
     - add 2 input fields that correspond with the image so that you can generate your own meme
+
+- Second stretch goal
+    - Add memes you like to a collection
