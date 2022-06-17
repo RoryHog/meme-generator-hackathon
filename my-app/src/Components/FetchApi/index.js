@@ -5,7 +5,7 @@ import Button from "../Button";
 
  export default function Meme() {
     const [meme, setMeme] = useState({
-        randomImage: "http://i.imgflip.com/1bij.jpg" 
+        randomImage: "https://i.imgflip.com/1otk96.jpg" 
     })
     const [allMemes, setallMemes] = useState([]) 
    
