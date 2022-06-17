@@ -34,7 +34,7 @@ import Button from "../Button";
     //position inputs and p tag 
     
     const [text, setText] = useState("")
-    const[text2, setText2] = useState("")
+    const [text2, setText2] = useState("")
     const [memeText, setMemeText] = useState([])
 
     function getFirstInput(e) {
@@ -51,12 +51,13 @@ import Button from "../Button";
     return (
         <>
         <Button onClick={getMemeImage}/>
-        <p>{text}</p>
-        <p>{text2}</p>
-        <button onClick={handleClick}>add text</button>
+        <button className="button" onClick={handleClick}>add text</button>
         <input onInput={getFirstInput} className="top-line" placeholder="Top Line"></input>
         <input onInput={getSecondInput} className="bottom-line" placeholder="Bottom Line"></input>
         <img className="image" src={meme.randomImage} alt={meme.name}/>
+        <p className="top-text">{text}</p>
+        <p className="bottom-text">{text2}</p>
+        <button className="button" onClick={handleClick}>add to collection</button>
         </>
     )
  }

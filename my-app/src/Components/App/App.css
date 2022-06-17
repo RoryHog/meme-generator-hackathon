@@ -1,5 +1,9 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -42,9 +46,24 @@
 }
 
 .image {
-  max-width: 500px;
-  max-height: 500px;
+  width: 500px;
+  height: 500px;
   border-radius: 5%;
 }
 
 
+.top-text {
+  font-family: 'Bree Serif', serif;
+  background-color: white;
+  font-size: 200%;
+  position: absolute;
+  top: 260px
+}
+
+.bottom-text {
+  font-family: 'Bree Serif', serif;
+  background-color: white;
+  font-size: 200%;
+  position: absolute;
+  top: 700px
+}
