@@ -1,10 +1,12 @@
 import './App.css';
-import './Components/FetchApi/index'
+import Memes from '../FetchApi/index';
+import Button from '../Button';
 
 function App() {
   return (
     <div className="App">
       <h1>Meme generator</h1>
+      <Memes />
     </div>
   );
 }
