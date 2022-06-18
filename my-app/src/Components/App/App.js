@@ -5,7 +5,7 @@ import Button from '../Button';
 function App() {
   return (
     <div className="App">
-      <h1>Meme generator</h1>
+      <h1>Meme Generator</h1>
       <Memes />
     </div>
   );

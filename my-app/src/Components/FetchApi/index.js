@@ -49,18 +49,23 @@ import Button from "../Button";
         setMemeText([memeText, text])
         setMemeText2([memeText2, text2])
     }
-   
+
+    function clearText() {
+        setMemeText("") 
+        setMemeText2("")
+    }
+  
 
     return (
         <>
         <Button onClick={getMemeImage}/>
-        <button className="button" onClick={handleClick}>add text</button>
         <input onChange={getFirstInput} className="top-line" placeholder="Top Line"></input>
         <input onChange={getSecondInput} className="bottom-line" placeholder="Bottom Line"></input>
+        <button className="button" onClick={handleClick}><text className="text">add text</text></button>
         <img className="image" src={meme.randomImage} alt={meme.name}/>
         <p className="top-text">{memeText}</p>
         <p className="bottom-text">{memeText2}</p>
-        <button className="button">add to collection</button>
+        <button className="button" onClick={clearText}><text className="text">clear text</text></button>
         </>
     )
  }

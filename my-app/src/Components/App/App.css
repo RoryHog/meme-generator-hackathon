@@ -1,9 +1,12 @@
+
+
 .App {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
+  background-color: #fff3f3ed;
+
 }
 
 .App-logo {
@@ -16,6 +19,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
@@ -33,41 +37,62 @@
 }
 
 .button {
-  background-color: #7CDEDC;
-  border-radius: 30%;
-  height: 60px;
+  background-color: #ff072d;
+  border-radius: 8%;
+  /* height: 0px; */
   margin-bottom: 20px;
 }
 
+
 .text {
-  font-family: 'Dancing Script', cursive;
-  font-size: large;
-  font-weight: bold;
+  font-family: impact, sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000;
+  font-size: 200%;
 }
 
 .image {
-  width: 500px;
+  max-width: 700px;
   height: 500px;
   border-radius: 5%;
+  margin-bottom: 20px;
 }
 
 
 .top-text {
-  font-family: 'Bree Serif', serif;
-  background-color: white;
+  font-family: impact, sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 3px 3px 0 #000;
   font-size: 200%;
   position: absolute;
-  top: 260px
+  top: 300px
 }
 
 .bottom-text {
-  font-family: 'Bree Serif', serif;
-  background-color: white;
+  font-family: impact, sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 3px 3px 0 #000;
   font-size: 200%;
   position: absolute;
-  top: 700px
+  top: 730px
 }
 
 .bottom-line{
   margin-bottom: 20px;
 }
+
+input{
+  border-radius: 4px;
+  padding: 12px 20px;
+  margin: 4px 0px;
+}
+
